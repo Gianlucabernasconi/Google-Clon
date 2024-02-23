@@ -1,0 +1,298 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+ 
+
+
+
+ /* Header */
+
+
+
+ header{
+    width: 100%;
+    height: 60px;
+ }
+
+.headerelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem;
+    height: auto;
+    
+    
+    
+}
+
+.headerelements a{
+   display: inline-block;
+   
+   text-decoration: none;
+   cursor: pointer;
+   color: rgba(0,0,0,.87);
+   margin-top: 5px;
+   margin-right: 12px;
+   font-size: 13px;
+   line-height: 24px;
+   
+}
+
+.headerelements a:hover{
+   text-decoration: underline;
+
+}
+
+.headerelements img{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 14px;
+ }
+
+ .headerelements button{
+    display: inline-block;
+    padding: 9px 23px;
+    background: #1a73e8;
+    border: none;
+    border-radius: 4px;
+    color:  white;
+    font-size: 14px;
+    letter-spacing: .25px;
+    box-sizing: border-box;
+    margin-right: 5px;
+
+ }
+
+ .headerelements button:hover{
+    box-shadow: 0 1px 3px 1px rgba(66,64,67,.15),0 1px 2px 0 rgba(60,64,67,.3);
+    background: #1b66c9;
+    cursor: pointer;
+}
+
+ 
+
+
+/* Main */
+
+
+
+main{
+    margin-top: 150px;
+    
+}
+
+.Logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+   
+
+
+}
+
+.Logo img{
+    width: 272px;
+    height: 92px;
+}
+
+
+
+.buscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    border-radius: 24px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    max-width: 584px;
+    min-height: 44px;
+    position: relative;
+
+   
+
+}
+
+
+
+.buscador:hover{
+    box-shadow:0 1px 6px 0 #20212447;
+    border-color: #dfe1e500
+}
+
+.search-icon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+   
+
+}
+
+.search-icon img{
+    height: 15px;
+    padding-right: 13px;
+    margin-top: 2px;
+}
+
+
+
+.buscador-iconos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+
+.buscador-iconos img{
+    width: 30px;
+    height:30px ;
+}
+
+.buscador-iconos :nth-child(1){
+    margin-right: 8px;
+}
+
+.buscador-iconos :nth-child(2){
+    height: 24px;
+    margin-top: 2px;
+}
+
+
+
+.buscador-input{
+ 
+    border: none;
+    resize: none;
+    background-color: transparent;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    width: 450px;
+    height: 40px;
+    
+    
+  }
+
+
+
+
+
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f8f9fa;
+    margin: 1rem;
+    height: 36px;
+    
+   
+
+    
+}
+
+.buttons :last-child{
+    margin-left: 15px;
+    
+}
+
+.buttons button{
+    border: 0;
+    font-size: 14px;
+    padding: 0 15px;
+    color: #202124;
+    border-radius: 4px;
+}
+
+.buttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.buttons-texto-de-abajo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  
+}
+
+/* Footer */
+
+
+footer{
+   margin-top: auto;
+   font-size: 14px;
+   padding: 1em 0;
+   color: #202124;
+
+ 
+}
+
+.location{
+    display: flex;
+    justify-content: flex-start;
+   
+   margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+    
+}
+
+.navs-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+   
+}
+
+
+
+
+.navs-footer :nth-child(3)
+ {
+  margin-right: 30px;
+}
+
+
+.navs-footer :nth-child(2)
+ {
+  margin-right: 10px;
+}
+
+
+
+.navs-footer a:not(:last-child) {
+    margin-right: 30px; 
+}
+
+.navs-footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
