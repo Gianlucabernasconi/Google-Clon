@@ -37,4 +37,4 @@ Recrear la icónica barra de búsqueda de Google fue un desafío interesante, ce
 
 ### **¿Cómo darle una mirada 🔎?**
 
-**_🟦Clona el repo, abre el index.html en tu navegador, y ¡boom💣! Ya estás viendo Googlent. Así de sencillo!🟩_**
+**_🟦Clona el repo, abre el index.html en tu navegador, y ¡boom💣! Ya estás viendo Googlent. Así de sencillo!🟥_**
